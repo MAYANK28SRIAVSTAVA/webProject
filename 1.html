@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <section id="home">
+                <h2>Welcome to Our Blog</h2>
+<p>Hello welcome to our blog page</p>
+            </section>
+
+            <section id="popular-posts">
+                <h2>Popular Posts</h2>
+                <ul>
+                    <li><a href="#">Post Title 3</a></li>
+                    <li><a href="#">Post Title 4</a></li>
+                </ul>
+            </section>
+
+            <section id="posts">
+                
+                <div class="blog-post">
+                    <h3>Post Title</h3>
+                    <p> How to guide people in engineering inorder to avoid mistakes</p>
+
+                    <div class="post-meta">
+                        <span class="author">Author: Abhirup Dandapat</span>
+                        <span class="date">Published on: September 30, 2023</span>
+                    </div>
+
+                    <button class="comment-toggle">Toggle Comments</button>
+                    <div class="comments hidden">
+                        <h4>Comments</h4>
+                        <ul>
+                            <li>Comment 1</li>
+                            <li>Comment 2</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="create-post">
+                <h2>Create a New Post</h2>
+                <form id="post-form">
+                    <input type="text" id="title" placeholder="Title" required>
+                    <textarea id="content" placeholder="Write your blog post..." required></textarea>
+                    <button type="submit">Create Post</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <aside id="sidebar">
+        <div class="container">
+            <section id="recent-posts">
+                <h2>Recent Posts</h2>
+                <ul>
+                    <li><a href="#">Post Title 1</a></li>
+                    <li><a href="#">Post Title 2</a></li>
+                </ul>
+            </section>
+            <section id="categories">
+                <h2>Categories</h2>
+                <ul>
+                    <li><a href="#">Category 1</a></li>
+                    <li><a href="#">Category 2</a></li>
+                </ul>
+            </section>
+            <section id="tag-cloud">
+                <h2>Tag Cloud</h2>
+                <ul>
+                    <li><a href="#">Tag 1</a></li>
+                    <li><a href="#">Tag 2</a></li>
+                    <li><a href="#">Tag 3</a></li>
+                    
+                </ul>
+            </section>
+            <section id="social-media">
+                <h2>Connect with Us</h2>
+                <ul>
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                  
+                </ul>
+            </section>
+        </div>
+    </aside>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are students of Jaypee Institute Of Information Technology and currently pursuing Btech in computer science.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="subscribe">
+        <div class="container">
+            <h2>Subscribe to our Newsletter</h2>
+            <form id="subscribe-form">
+                <input type="email" id="email" placeholder="Your Email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Your Blog</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
